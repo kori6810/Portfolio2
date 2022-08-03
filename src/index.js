@@ -6,7 +6,7 @@ import {BackgroundTxt, BackgroundHero } from './components/landing-page/Backgrou
 import Sidebar from './components/landing-page/sidebar/Sidebar'
 import { About } from './components/landing-page/About/About';
 import { Works } from './components/landing-page/works/Works';
-import { Contact } from './components/footer/Contact';
+import Contact from './components/footer/contact'
 
 
 

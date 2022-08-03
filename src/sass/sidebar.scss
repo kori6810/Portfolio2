@@ -12,7 +12,10 @@
   // width: 39rem;
   
   overflow: hidden;
-  
+  &__link{
+    text-decoration: none;
+    color: rgb(84, 82, 82);
+  }
   &__menu{
   padding: 0.5rem 2rem;
   border-radius: 1rem;

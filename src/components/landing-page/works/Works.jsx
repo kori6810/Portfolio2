@@ -1,9 +1,9 @@
 import React, { useState, useRef } from 'react';
 import ReactDOM from 'react-dom';
 import { useSpring, animated } from 'react-spring';
-import MiniProjects from '../../../assets/mini-projects.jpeg';
+import Natures from '../../../assets/Natures.png';
 import Houzing from '../../../assets/houzing.png';
-import Green from '../../../assets/green.png';
+import Trillo from '../../../assets/trillo.png';
 
 export function Works() {
   return (
@@ -144,11 +144,11 @@ function Info() {
 
 const cards = [
   {
-    title: 'Minor Projects ⚡️',
+    title: 'Natures 🍀',
     description:
-      'During time of learning, I did some minor projects for practising and enhencing my knowledge. They differ in a way they are build: for some of them I used only HTML and CSS(Sass) and for some others I used Js also. As they are not that much big, I prefered to link my github, not each mini project, where you can check out them easily by yourself  😁',
-    image: MiniProjects,
-    link:'https://github.com/soso6810',
+      'This site is for Tour Agency. Advanced Css(SASS) is mostly emphisised skill in this project. It is fully responsive. A credit to origianl author, Jonas Schmedtman, is of course highly appreciated!. All UI design is his. I recreated it by myself according to his UI design.😁',
+    image: Natures,
+    link:'https://natours-project-five.vercel.app/',
     imageRatio: 784 / 1016
   },
   {
@@ -160,11 +160,11 @@ const cards = [
     imageRatio: 730 / 1030
   },
   {
-    title: 'Green Shop 🍀',
+    title: 'Trillo 🌆',
     description:
-      "Green Shop is  Ecommerce website for plants. It doesnt integrate with back-end,because I struggled finding back-end files. So,  instead I used some Mock data that I build in JS file 😅. It is fully responsive and built with reusable and neat code   ",
-    link:'https://green-shop-tau.vercel.app/home',
-    image: Green,
+      "During time of learning, I did some minor projects for practising and enhencing my knowledge. They differ in a way they are build: for some of them I used only HTML and CSS(Sass) and for some others I used Js also. This is one of the first projects that I did and I used only CSS and JS for this Website",
+    link:'https://trillo-henna.vercel.app/',
+    image: Trillo,
     imageRatio: 730 / 1030
   }
 ];

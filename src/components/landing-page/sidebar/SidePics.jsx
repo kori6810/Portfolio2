@@ -9,7 +9,8 @@ export const SidePics = ({info}) => {
     <div className="sidebar__picWrapper">
       <img src={img[info?.pic]} alt="sidebar"  className="sidebar__pics"/>
       <figcaption className="sidebar__caption">
-        {info?.title}
+        
+        <a className="sidebar__link" href="">{info?.title}</a>
       </figcaption>
     </div>
     

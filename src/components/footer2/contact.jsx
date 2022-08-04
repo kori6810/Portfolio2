@@ -3,9 +3,12 @@ import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
 import { Window } from "./style";
 import img1 from "../../assets/pexels-eduardo-dutra-2115217.jpg";
 import Login from "./form";
+import { useInView } from 'react-intersection-observer';
+
 const Contact = () => {
+	const { ref, inView} = useInView();
 	return (
-		<div className="contact" id="contact">
+		<div className={`${inView ? 'refContact' : 'contact'}`} id="Contact" ref={ref} >
 			<LoadScript googleMapsApiKey="AIzaSyAkkKvMyf8Tk3Q8s7MWXin6njbtjIjq2S4">
 				<GoogleMap
 					mapContainerStyle={{ width: "100%", height: "100vh" }}

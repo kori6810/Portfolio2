@@ -2,6 +2,15 @@
   grid-column: main;
   grid-row: 5/span 1;
   margin: 0 10rem;
+
+}
+.refWork{
+  grid-column: main;
+  grid-row: 5/span 1;
+  margin: 0 10rem;
+  opacity:1;
+  transform: translateY(0);
+  transition: all 1s ;
 }
 .info {
   position: relative;

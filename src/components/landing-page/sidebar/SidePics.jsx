@@ -11,7 +11,7 @@ export const SidePics = ({info}) => {
       <img src={img[info?.pic]} alt="sidebar"  className="sidebar__pics"/>
       <figcaption className="sidebar__caption">
         
-        <Link activeClass="active" spy={true} smooth={true} offset={50} duration={1000}  className="sidebar__link" to={info?.id}>{info?.title}</Link>
+        <Link activeClass="active" spy={true} smooth={true} offset={50} duration={1500}  className="sidebar__link" to={info?.id}>{info?.title}</Link>
       </figcaption>
     </div>
     

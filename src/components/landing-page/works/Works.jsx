@@ -4,12 +4,14 @@ import { useSpring, animated } from 'react-spring';
 import Natures from '../../../assets/Natures.png';
 import Houzing from '../../../assets/houzing.png';
 import Trillo from '../../../assets/trillo.png';
+import { useInView } from 'react-intersection-observer';
 
 export function Works() {
+  
   return (
-    <div className="works" id='Works'>
+    <div className='works' id='Works'>
       
-        <Hero>
+        <Hero >
           <div className="container">
             <Info />
             <div className="row">

@@ -6,7 +6,7 @@ import {BackgroundTxt, BackgroundHero } from './components/landing-page/Backgrou
 import Sidebar from './components/landing-page/sidebar/Sidebar'
 import { About } from './components/landing-page/About/About';
 import { Works } from './components/landing-page/works/Works';
-import Contact from './components/footer/contact'
+import Contact from './components/footer2/contact'
 
 
 
@@ -19,7 +19,7 @@ root.render(
    <Sidebar/>
    <About/>
    <Works/>
-   <Contact/>
+   <Contact></Contact>
   </React.StrictMode>
 );
 ///#CFCFCF

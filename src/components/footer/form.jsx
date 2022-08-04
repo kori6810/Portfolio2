@@ -28,7 +28,7 @@ const Login = () => {
 			message: Yup.string().required("Message is required"),
 		}),
 	});
-	console.log(Formik);
+	// console.log(Formik);
 
 	return (
 		<ContactForm onSubmit={Formik.handleSubmit}>

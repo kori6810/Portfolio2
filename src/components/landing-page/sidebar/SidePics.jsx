@@ -1,4 +1,5 @@
 import React from "react"
+import {Link} from 'react-scroll';
 import hero1 from '../../../assets/hero2.jpeg'
 import hero2 from '../../../assets/hero3.jpeg'
 import hero3 from '../../../assets/hero4.jpeg'
@@ -10,7 +11,7 @@ export const SidePics = ({info}) => {
       <img src={img[info?.pic]} alt="sidebar"  className="sidebar__pics"/>
       <figcaption className="sidebar__caption">
         
-        <a className="sidebar__link" href="">{info?.title}</a>
+        <Link activeClass="active" spy={true} smooth={true} offset={50} duration={1000}  className="sidebar__link" to={info?.id}>{info?.title}</Link>
       </figcaption>
     </div>
     

@@ -5,7 +5,7 @@ import img1 from "../../assets/pexels-eduardo-dutra-2115217.jpg";
 import Login from "./form";
 const Contact = () => {
 	return (
-		<div className="contact">
+		<div className="contact" id="Contact">
 			<LoadScript googleMapsApiKey="AIzaSyAkkKvMyf8Tk3Q8s7MWXin6njbtjIjq2S4">
 				<GoogleMap
 					mapContainerStyle={{ width: "100%", height: "100vh" }}

@@ -5,6 +5,8 @@
   height: 90vh;
   // padding: 10rem 0;
   margin:15rem 10rem;
+  opacity: 0;
+  transform: translateY(8rem);
   
   &__content{
     display: flex;
@@ -8072,4 +8074,14 @@
          transition: transform 14715ms ease-in-out;
     }
   }
+}
+.visible{ 
+     grid-column: main-start/main-end;
+     grid-row: 4/span1;
+     height: 90vh;
+     // padding: 10rem 0;
+     margin:15rem 10rem;
+     opacity:1;
+     transform: translateY(0);
+     transition: all .3s ;
 }

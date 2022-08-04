@@ -1,6 +1,7 @@
 
-import { sidebar } from "../../../utilits/sidebar"
-import SidePic from "./SidePics"
+import { sidebar } from "../../../utilits/sidebar";
+import SidePic from "./SidePics";
+
 
 const Sidebar = ()=>{
  

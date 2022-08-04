@@ -7,7 +7,7 @@ import Trillo from '../../../assets/trillo.png';
 
 export function Works() {
   return (
-    <div className="works">
+    <div className="works" id='Works'>
       
         <Hero>
           <div className="container">

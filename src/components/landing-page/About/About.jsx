@@ -2,7 +2,7 @@
 
  import React from "react";
  import ReactDOM from "react-dom";
- import Typist from 'react-typist';
+//  import Typist from 'react-typist';
  
  import { useInView } from 'react-intersection-observer';
 

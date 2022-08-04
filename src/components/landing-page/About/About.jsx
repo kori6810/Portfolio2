@@ -2,7 +2,7 @@
 
  import React from "react";
  import ReactDOM from "react-dom";
-//  import Typist from 'react-typist';
+ 
  
  import { useInView } from 'react-intersection-observer';
 
@@ -36,7 +36,7 @@ function About() {
 
       </div>
       <div className="About__pic">
-       <h1 style={{color:'#fff'}}> Press me </h1>
+       
        
       </div>
 

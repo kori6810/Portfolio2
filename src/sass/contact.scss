@@ -3,7 +3,9 @@
   grid-row: 6/span 1;
   position: relative;
   opacity:0;
-  transform: translateY(-8rem);
+  // transform: translateY(-8rem);
+  
+  
 
 }
 .refContact{
@@ -11,7 +13,8 @@
   grid-row: 6/span 1;
   position: relative;
   opacity:1;
-  transform: translateY(0);
-  transition: all 1s ;
+  height: 100vh;
+  
+  transition: all 2s ;
 
 }

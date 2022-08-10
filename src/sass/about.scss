@@ -5,7 +5,7 @@
   height: 65vh;
   margin: 5rem 12rem;
   opacity: 0;
-  transform: translateY(8rem);
+  // transform: translateY(8rem);
   
   &__content{
     display: flex;
@@ -75,10 +75,16 @@
 .visible{ 
      grid-column: main-start/main-end;
      grid-row: 4/span1;
-     height: 65vh;
+     height: 100vh;
      // padding: 10rem 0;
-     margin: 5rem 12rem;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin: 0 12rem ;
+     
+    
+    
      opacity:1;
-     transform: translateY(0);
-     transition: all 1s ;
+     transition: all 2s ;
 }

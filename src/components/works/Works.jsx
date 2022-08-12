@@ -1,9 +1,9 @@
 import React, { useState, useRef } from 'react';
 import ReactDOM from 'react-dom';
 import { useSpring, animated } from 'react-spring';
-import Natures from '../../../assets/Natures.png';
-import Houzing from '../../../assets/houzing.png';
-import Trillo from '../../../assets/trillo.png';
+import Natures from '../../assets/Natures.png';
+import Houzing from '../../assets/houzing.png';
+import Trillo from '../../assets/trillo.png';
 import { useInView } from 'react-intersection-observer';
 
 export function Works() {

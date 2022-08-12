@@ -2,12 +2,13 @@
 
  import React from "react";
  import ReactDOM from "react-dom";
+ import ProfilePic from '../../assets/me.jpeg'
  
  
  import { useInView } from 'react-intersection-observer';
 
 
-function About() {
+export function About() {
    
    const { ref, inView} = useInView();
   
@@ -19,7 +20,7 @@ function About() {
       <div className="About__content">
       <div className="About__textWrapper">
         <h2>
-          {inView ? 'hello' : 'hidden'},
+          Hello,
         </h2>
         <h3>My name is Kori. I am 21-years-old,young and passionate web-developer who is learning and trying hard to pursuade his dreams.
         </h3>
@@ -37,7 +38,6 @@ function About() {
       </div>
       <div className="About__pic">
        
-       
       </div>
 
       </div>
@@ -46,7 +46,7 @@ function About() {
    );
  }
  
-export {About}
+
 
 
  

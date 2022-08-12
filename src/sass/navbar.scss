@@ -1,9 +1,21 @@
 .navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  padding: 0 20rem;
+  z-index:4;
+  border-bottom: 1px solid $white-color2;
+  background-color: $base-color;
   
+  
+  height: 7rem;
+  width: 100%;
+  top: 0;
+  left: 0;
   
   &__welcomeTxt{
-    grid-column: main-start;
-    grid-row: 1/span 1;
+    font-size: 2rem;
     text-transform: uppercase;
     color: $white-color;
     font-weight: 200;
@@ -13,56 +25,41 @@
   
   //////LOGO AND NAME
   &__logo-box{
-    grid-column: content-start/content-end;
-    grid-row: 1/ span 1;
-    margin-top: 4rem;
+   
     text-align: center;
    
 
   }
-  &__logo-name{
-    text-transform: uppercase;
-    color: $white-color2;
-    font-weight: 400;
-    letter-spacing: 2px;
-
-  }
+  
   &__logo{
     transform:rotate(45deg) ;
     width: 3rem;
     margin-bottom: 1rem;
+    fill: #fff;
   }
   ///////SEARCH-BOX
-  &__search-box{
-    grid-column: content-end/main-end;
-    grid-row: 1/span 1;
+  &__nav{
+    list-style: none;
     text-align: center;
     display: flex;
     align-items: center;
-    color: $white-color;
     justify-content: center;
   }
-  &__search{
+  &__item{
+    margin-right: 4rem;
+  }
+  &__link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
     font-weight: 200;
-    letter-spacing: -1px;
-    font-size: 1.5rem;
-    margin-right: 4rem;
-  }
-  &__searchIcon{
-    width: 1.5rem;
-    margin-right: 4rem;
-
+    padding: 1rem;
+    transition: all .3s ease-out ;
+    &:hover{
+      border-bottom: 2px solid #e31b6d;
+      
+    }
   }
 }
 
-.wave{
-  grid-row: 1/span1;
-  grid-column: main;
-  // height: 20rem;
-  // width: 100%;
-}
-.icon{
-  fill: $white-color2;
-  
 
-}

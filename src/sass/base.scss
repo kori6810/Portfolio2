@@ -9,10 +9,17 @@
 html{
   font-size: 62.50%;
   font-family: 'Oxanium', cursive;
+
   ::-webkit-scrollbar {
     display: none;
 }
 }
 body{
   background-color: $base-color;
+  -webkit-touch-callout: none; /* IOS Safari */
+  -webkit-user-select:none;/* Safari */
+  -khtml-user-select:none; /* Konqueror HTML */
+  -moz-user-select: none;/* Old versions of FireFox */
+  -ms-user-select: none;/* Internet Explorer/ Edge */
+  user-select: none;/* Non-prefixed version, currently supported by Chrome, Opera */
 }

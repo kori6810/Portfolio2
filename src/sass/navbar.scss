@@ -3,17 +3,28 @@
   align-items: center;
   justify-content: space-between;
   position: fixed;
-  padding: 0 20rem;
+  padding: 0 24rem;
   z-index:4;
-  border-bottom: 1px solid $white-color2;
-  background-color: $base-color;
   
-  
+  background-color: transparent;
   height: 7rem;
-  width: 100%;
   top: 0;
   left: 0;
-  
+  overflow: hidden;
+  &__bg{
+    background-color: $base-color;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    padding: 0 24rem;
+    z-index:4;
+    height: 7rem;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+  }
   &__welcomeTxt{
     font-size: 2rem;
     text-transform: uppercase;
@@ -21,6 +32,7 @@
     font-weight: 200;
     letter-spacing: 5px;
     text-align: center;
+    transition: 0.5s;
   }
   
   //////LOGO AND NAME
@@ -44,9 +56,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    &::after{
+      content: '';
+      display: block;
+      width: 80vw;
+      height: 1px;
+      background-color: #fff;
+      
+      
+    }
   }
   &__item{
-    margin-right: 4rem;
+    margin-right: 1rem;
   }
   &__link{
     text-decoration: none;
@@ -61,5 +82,6 @@
     }
   }
 }
+
 
 

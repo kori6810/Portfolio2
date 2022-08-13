@@ -22,7 +22,7 @@ export function About() {
         <h2>
           Hello,
         </h2>
-        <h3>My name is Kori. I am 21-years-old,young and passionate web-developer who is learning and trying hard to pursuade his dreams.
+        <h3>My name is Sirojiddin(Kori). I am 21-years-old,young and passionate web-developer who is learning and trying hard to pursuade his dreams.
         </h3>
         <h3>
         Currently I am senior student of Gachon Universtiy, IT Department.

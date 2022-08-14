@@ -4,6 +4,7 @@ import {About} from './components/About/About'
 import {Projects} from './components/projects/Projects'
 import { Home } from './components/Home/Home'
 import { Contact } from './components/contact/contact'
+import { Footer } from './components/footer/Footer'
 
 export const Root = () => {
   return (
@@ -13,6 +14,7 @@ export const Root = () => {
       <About/>
       <Projects/>
       <Contact/>
+      <Footer/>
       
     </div>
   )

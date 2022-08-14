@@ -15,7 +15,7 @@ export const Home = () => {
         <p className={`${inView ? 'animation__text1 animation__text' : 'home__text'}`} ref={ref}>Hello, I'm <span className="home__highlight">Kori</span></p>
         
         <h2 className={`${inView ? 'animation__text2 animation__text' : 'home__text'}`}>
-          I'm a Full Stack Developer.
+          I'm a Front-End Developer.
         </h2>
         <Link to='Works' activeClass="active" spy={true} smooth={true} offset={50} duration={1500}>
         <button className={`${inView ? 'animation__button' : 'home__button'}`}>

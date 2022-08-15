@@ -4,7 +4,7 @@ import { About } from "./components/About/About";
 import { Projects } from "./components/projects/Projects";
 import { Home } from "./components/Home/Home";
 import { Contact } from "./components/contact/contact";
-import Footer from "./components/Footer/Footer";
+import Footer from "./components/Bottom/Footer";
 
 export const Root = () => {
   return (

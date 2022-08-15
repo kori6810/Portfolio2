@@ -33,7 +33,7 @@ export const Navbar = ()=>{
       </div>
       <ul className="navbar__nav">
         <li className="navbar__item">
-          <Link to='Home' activeClass="active" spy={true} smooth={true} offset={50} duration={1500} className="navbar__link" >
+          <Link to='Home' activeClass="active" spy={true} smooth={true} offset={-20} duration={1500} className="navbar__link" >
             Home
           </Link>
         </li>
@@ -43,12 +43,12 @@ export const Navbar = ()=>{
           </Link>
         </li>
         <li className="navbar__item">
-          <Link to='Works' activeClass="active" spy={true} smooth={true} offset={50} duration={1500}className="navbar__link" >
+          <Link to='Works' activeClass="active" spy={true} smooth={true} offset={-80} duration={1500}className="navbar__link" >
             Work
           </Link>
         </li>
         <li className="navbar__item">
-          <Link to='Contact' activeClass="active" spy={true} smooth={true} offset={50} duration={2000}className="navbar__link" >
+          <Link to='Contact' activeClass="active" spy={true} smooth={true} offset={40} duration={2000}className="navbar__link" >
             Contact
           </Link>
         </li>

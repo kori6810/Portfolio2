@@ -1,11 +1,13 @@
 import React from "react";
 import Login from "./form";
-import { useInView } from 'react-intersection-observer';
+import { Parallax } from "react-parallax";
+import Img3 from "../../assets/img2.jpeg";
 
 export const Contact = () => {
 	
 	return (
-		<div className='refContact' id="Contact"  >
+		<Parallax blur={10} bgImage={Img3} bgImageAlt="the cat" strength={200}>
+        <div className='refContact' id="Contact"  >
 			<div className="contact__window">
 				<div className="contact__header-container">
 					<h1>
@@ -20,6 +22,8 @@ export const Contact = () => {
 
 			
 		</div>
+    </Parallax>
+		
 	);
 };
 

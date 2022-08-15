@@ -1,7 +1,7 @@
 .home{
   padding:40rem 20rem;
   text-align: center;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-image: url('../assets/bg.jpeg');
   background-repeat: no-repeat;
@@ -9,9 +9,20 @@
   background-size: cover;
   // background-color: aqua;
   
+  @media(max-width: $bp-medium){
+    // height: 60vh;
+    
+  }
+  @media(max-width: $bp-small){
+    padding:40rem 10rem;
+    // height: 50vh;
+    // margin-bottom: 10rem;
+    
+  }
+  
   &__text{
-    font-size: 32pt;
-    line-height: 36pt;
+    font-size: 4.5rem;
+    line-height: 5rem;
     color: $white-color2;
     font-weight: 200;
     opacity: 0;
@@ -27,7 +38,7 @@
     background-color: transparent;
     cursor: pointer;
     display: inline-block;
-    font-size: 15pt;
+    font-size: 5rem;
     padding: 1rem 2rem;
     transition: all 0.5s;
     margin-top: 1rem;
@@ -46,8 +57,8 @@
 
 .animation{
   &__text{
-    font-size: 32pt;
-    line-height: 36pt;
+    font-size: 4.5rem;
+    line-height: 5rem;
     color: $white-color2;
     font-weight: 200;
     opacity: 1;
@@ -67,7 +78,7 @@
     background-color: transparent;
     cursor: pointer;
     display: inline-block;
-    font-size: 15pt;
+    font-size: 2rem;
     padding: 1rem 2rem;
     transition: all 1s;
     transition-delay: 2s;

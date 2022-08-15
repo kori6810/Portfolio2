@@ -24,7 +24,7 @@
     & h1{
       font-size: 3rem;
 	    color: $white-color;
-	    font-weight: 700;
+	    font-weight: 400;
 	    padding-bottom: 0.7rem;
 	    letter-spacing: 2px;
     }
@@ -141,5 +141,17 @@
   margin: auto;
   transition: all 2s ;
 	margin-top: 2rem;
+	@media(max-width: $bp-large){
+    width: 110rem;
+  }
+  @media(max-width: $bp-medium){
+    width: 135rem;
+    
+  }
+	@media (max-width: $bp-small) {
+    width: 73rem;
+    // margin-bottom: 7rem;
+    // height: 50vh;
+  }
 
 }

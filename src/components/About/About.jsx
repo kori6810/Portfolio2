@@ -15,7 +15,7 @@ export function About() {
 
   
    return (
-     <div className={`${inView ? 'visible' : 'About'}`} id="About" ref={ref}>
+     <div className='visible' id="About" ref={ref}>
       <h1 className="About__heading">About</h1>
       <div className="About__content">
       <div className="About__textWrapper">

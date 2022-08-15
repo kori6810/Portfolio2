@@ -26,7 +26,7 @@ const Login = () => {
 		<form  className="contact__form" onSubmit={Formik.handleSubmit}>
 			<div className="contact__inputContainer">
 				
-				<label htmlfor="fullname"  className="contact__label">Full Name:</label>
+				<label htmlFor="fullname"  className="contact__label">Full Name:</label>
 				<input id="fullname"
 					name="fullname"
 					type={"text"}
@@ -44,7 +44,7 @@ const Login = () => {
 			  }
 			</div>
 			<div className="contact__inputContainer">
-				<label htmlfor="email" className="contact__label">Email:</label>
+				<label htmlFor="email" className="contact__label">Email:</label>
 				<input id="email"
 					name="email"
 					type={"email"}
@@ -62,7 +62,7 @@ const Login = () => {
 			  }
 			</div>
 			<div className="contact__inputContainer">
-				<label htmlfor="phone" className="contact__label">Phone:</label>
+				<label htmlFor="phone" className="contact__label">Phone:</label>
 				<input id="phone"
 					name="phone"
 					type={"text"}
@@ -80,7 +80,7 @@ const Login = () => {
 			  }
 			</div>
 			<div className="contact__inputContainer">
-				<label htmlfor="message" className="contact__label">Message:</label>
+				<label htmlFor="message" className="contact__label">Message:</label>
 				<input id="message"
 					name="message"
 					type="message"

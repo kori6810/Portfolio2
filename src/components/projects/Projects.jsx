@@ -28,6 +28,7 @@ export function Projects() {
       type: "Travel Agency Website",
       info: "This site is for Tour Agency. Advanced Css(SASS) is mostly emphisised skill in this project. It is fully responsive.",
       link: "https://natours-project-five.vercel.app/",
+      gitLink:'https://github.com/soso6810/Natours-Project',
     },
     {
       name: "Execute(kor)",
@@ -37,6 +38,7 @@ export function Projects() {
       type: "Korean Financial Advising Site",
       info: "Execute는 전 세계 여러 관할 지역에 사무소를 두고 있는 국제 금융 계획 회사입니다.",
       link: "https://executee.vercel.app/",
+      gitLink:'https://github.com/soso6810/Executee'
     },
     {
       name: "Memory Game",
@@ -46,6 +48,7 @@ export function Projects() {
       type: "Web-Game",
       info: "Game in which you have to find matching numbers/icons ",
       link: "https://memory-game2-l7r2o2ipa-ilkhomjon2002.vercel.app/",
+      gitLink:'https://github.com/soso6810/memory-game'
     },
     {
       name: "Mini Bank",
@@ -55,6 +58,7 @@ export function Projects() {
       type: "Simple online banking app",
       info: "This application allows users to login, transfer funds to other accounts, borrow funds or close the account",
       link: "https://bankist-sage.vercel.app/",
+      gitLink:'https://github.com/soso6810/Bankist'
     },
     {
       name: "Houzing",
@@ -64,6 +68,7 @@ export function Projects() {
       type: "This site is for selling, renting and buying houses.",
       info: "This is fully developed web-site which integrates with back-end also. There are almost all the features and parts that modern site can contain in this site. It is almost finished, I am STILL WORKING on it ",
       link: "https://houzing-sigma.vercel.app/home",
+      gitLink:'https://github.com/soso6810/Houzing'
     },
     {
       name: "Trillo",
@@ -73,6 +78,7 @@ export function Projects() {
       type: "All-in-one-one booking App",
       info: "Sample website for a touring company that demonstrates modern responsive design ",
       link: "https://trillo-henna.vercel.app/",
+      gitLink:'https://github.com/soso6810/Trillo'
     },
   ];
 
@@ -127,15 +133,26 @@ export function Projects() {
                         <h2>{projectList[click.id].type}</h2>
                         <p>{projectList[click.id].info}</p>
                         <div className="projects__visit-site-box">
-                          <button className="projects__btn--2 projects__btn">
-                            <a
-                              href={projectList[click.id].link}
-                              target="_blank"
-                              className="projects__link"
-                            >
-                              Visit Site
-                            </a>
-                          </button>
+                          <div className="projects__btn-box" >
+                            <button className="projects__btn--2 projects__btn">
+                              <a
+                                href={projectList[click.id].link}
+                                target="_blank"
+                                className="projects__link"
+                              >
+                                Visit Site
+                              </a>
+                            </button>
+                            <button className="projects__btn--2 projects__btn">
+                              <a
+                                href={projectList[click.id].gitLink}
+                                target="_blank"
+                                className="projects__link"
+                              >
+                                See Code
+                              </a>
+                            </button>
+                          </div>
 
                           <FaTimes
                             className="projects__exit"

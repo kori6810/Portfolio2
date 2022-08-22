@@ -214,6 +214,9 @@
     justify-content: space-between;
     align-items: center;
   }
+  &__btn-box :last-child{
+    margin-left: 1rem;
+  }
   &__exit{
     width: 3rem;
     aspect-ratio: 1;
